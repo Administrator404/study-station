@@ -1,0 +1,32 @@
+h1 {
+    font-weight: 400;
+    text-align: center;
+}
+
+.header {
+    color: grey;
+    font: normal 400 12px '微软雅黑';
+    text-align: center;
+}
+
+body {
+    font: normal 400 16px '微软雅黑';
+}
+
+p {
+    line-height: 28px;
+    text-indent: 2em;
+}
+
+footer {
+    color: grey;
+    text-indent: 2em;
+    font: normal 100 12px '微软雅黑';
+    text-align: center;
+}
+
+/* 取消a标签下划线 */
+.undoanchor {
+    text-decoration: none;
+    color: grey;
+}

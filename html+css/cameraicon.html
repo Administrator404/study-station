@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=750, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    .xuanfu {
+      width: 120px;
+      height: 120px;
+      border-radius: 25px;
+      background-color: #222a37;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .xuanfu .ball {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background-color: #505662;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .xuanfu .ball::before {
+      content: "";
+      box-sizing: border-box;
+      width: 76px;
+      height: 76px;
+      position: absolute;
+      background-color: #92959e;
+      border-radius: 50%;
+      border: solid 2px #363d45;
+    }
+
+    .xuanfu .ball::after {
+      content: "";
+      box-sizing: border-box;
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      background-color: #ffffff;
+      border-radius: 50%;
+      border: solid 2px #686870;
+    }
+
+    .test {
+      width: 100px;
+      height: 100px;
+      border-radius: 10px 20px 30px 40px;
+      background-color: pink;
+      margin: 0 auto 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="xuanfu">
+    <div class="ball"></div>
+  </div>
+  <div class="test">
+
+  </div>
+</body>
+
+</html>
