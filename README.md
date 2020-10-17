@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # __记录从0开始学习历程以及代码练习__
 # 10.14
 ### git v2.28.0 mirror (2020-07-28)
@@ -11,6 +10,6 @@
 
 #### 64-bit Git for Windows Portable : https://npm.taobao.org/mirrors/git-for-windows/v2.27.0.windows.1/PortableGit-2.27.0-64-bit.7z.exe
 --------
-=======
-## 记录从0开始学习历程以及代码练习
->>>>>>> 24c1cf0e3988a7be8dde341805f9b34c21991378
+# 10.15
+### 完成Vscode git配置并进行登录
+### 冲冲冲！！！
